@@ -1,4 +1,4 @@
-package com.algorithm.nio.zerocopy;
+package com.java.nio.zerocopy;
 
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
