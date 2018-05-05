@@ -9,7 +9,7 @@ package com.algorithm.graph;
  * 如果成立，证明从A到X再到B的路径比A直接到B的路径短，我们便设置Dis(AB) = Dis(AX) + Dis(XB)，
  * 这样一来，当我们遍历完所有节点X，Dis(AB)中记录的便是A到B的最短路径的距离。
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/9/9
  */
 public class Floyd {

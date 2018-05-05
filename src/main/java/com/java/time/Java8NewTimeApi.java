@@ -18,7 +18,7 @@ import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
 /**
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2018/3/20
  */
 public class Java8NewTimeApi {

@@ -15,7 +15,7 @@ import com.google.common.collect.Lists;
  * 在加入的过程中，总保持从源点v到S中各顶点的最短路径长度不大于从源点v到U中任何顶点的最短路径长度。
  * 此外，每个顶点对应一个距离，S中的顶点的距离就是从v到此顶点的最短路径长度，U中的顶点的距离，是从v到此顶点只包括S中的顶点为中间顶点的当前最短路径长度。
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/9/8
  */
 public class Dijkstra {

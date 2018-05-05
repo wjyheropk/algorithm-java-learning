@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 递归+合并，分而治之。
  * 将数据分为两组，各执行归并排序，再对两个有序数列进行合并。
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/9/9
  */
 public class MergeSort {

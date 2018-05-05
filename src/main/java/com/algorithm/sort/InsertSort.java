@@ -5,7 +5,7 @@ package com.algorithm.sort;
  * 插入排序核心：假设第一个元素排好，之后的元素对排好的部分从后向前比较并逐一移动。
  * 类比：打扑克抓拍
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/10/9
  */
 public class InsertSort {

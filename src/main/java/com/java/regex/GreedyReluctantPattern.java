@@ -3,7 +3,7 @@ package com.java.regex;
 /**
  * 正则表达式：贪婪、勉强模式
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/10/17
  */
 public class GreedyReluctantPattern {

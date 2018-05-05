@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 每次选定一个元素，将比该元素大的元素放在所选定元素的右边，将比该元素小的放在左边。
  * 可以利用递归方式实现。
  *
- * @author wangjiayin@baidu.com
+ * @author wangjiayin
  * @since 2017/9/12
  */
 public class QuickSort {
@@ -32,9 +32,8 @@ public class QuickSort {
             while (i < j && a[i] < index) {
                 i++;
             }
-            if (i < j) // 用比基准大的记录替换高位记录
-            {
-                a[j--] = a[i];
+            if (i < j) {
+                a[j--] = a[i]; // 用比基准大的记录替换高位记录
             }
         }
         a[i] = index; // 将基准数值替换回 a[i]
